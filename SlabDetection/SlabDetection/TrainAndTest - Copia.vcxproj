@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{057696CF-EA64-45F0-8596-A2BCD78D8C98}</ProjectGuid>
+    <RootNamespace>TrainAndTest</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>SlabNumberDetection</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SlabNumberDetection.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="tessdata\configs\config.cfg" />
+    <None Include="tessdata\eng.cube.bigrams" />
+    <None Include="tessdata\eng.cube.fold" />
+    <None Include="tessdata\eng.cube.lm" />
+    <None Include="tessdata\eng.cube.nn" />
+    <None Include="tessdata\eng.cube.params" />
+    <None Include="tessdata\eng.cube.size" />
+    <None Include="tessdata\eng.cube.word-freq" />
+    <None Include="tessdata\eng.tesseract_cube.nn" />
+    <None Include="tessdata\eng.traineddata" />
+    <None Include="tessdata\pdf.ttx" />
+    <None Include="Tesseract-OCR\ambiguous_words.exe" />
+    <None Include="Tesseract-OCR\classifier_tester.exe" />
+    <None Include="Tesseract-OCR\cntraining.exe" />
+    <None Include="Tesseract-OCR\combine_tessdata.exe" />
+    <None Include="Tesseract-OCR\dawg2wordlist.exe" />
+    <None Include="Tesseract-OCR\doc\AUTHORS" />
+    <None Include="Tesseract-OCR\doc\COPYING" />
+    <None Include="Tesseract-OCR\doc\README" />
+    <None Include="Tesseract-OCR\doc\ReleaseNotes" />
+    <None Include="Tesseract-OCR\java\ScrollView.jar" />
+    <None Include="Tesseract-OCR\mftraining.exe" />
+    <None Include="Tesseract-OCR\shapeclustering.exe" />
+    <None Include="Tesseract-OCR\tessdata\chi_sim.traineddata" />
+    <None Include="Tesseract-OCR\tessdata\configs\ambigs.train" />
+    <None Include="Tesseract-OCR\tessdata\configs\api_config" />
+    <None Include="Tesseract-OCR\tessdata\configs\bigram" />
+    <None Include="Tesseract-OCR\tessdata\configs\box.train" />
+    <None Include="Tesseract-OCR\tessdata\configs\box.train.stderr" />
+    <None Include="Tesseract-OCR\tessdata\configs\digits" />
+    <None Include="Tesseract-OCR\tessdata\configs\hocr" />
+    <None Include="Tesseract-OCR\tessdata\configs\inter" />
+    <None Include="Tesseract-OCR\tessdata\configs\kannada" />
+    <None Include="Tesseract-OCR\tessdata\configs\linebox" />
+    <None Include="Tesseract-OCR\tessdata\configs\logfile" />
+    <None Include="Tesseract-OCR\tessdata\configs\makebox" />
+    <None Include="Tesseract-OCR\tessdata\configs\quiet" />
+    <None Include="Tesseract-OCR\tessdata\configs\rebox" />
+    <None Include="Tesseract-OCR\tessdata\configs\strokewidth" />
+    <None Include="Tesseract-OCR\tessdata\configs\unlv" />
+    <None Include="Tesseract-OCR\tessdata\eng.cube.bigrams" />
+    <None Include="Tesseract-OCR\tessdata\eng.cube.fold" />
+    <None Include="Tesseract-OCR\tessdata\eng.cube.lm" />
+    <None Include="Tesseract-OCR\tessdata\eng.cube.lm_" />
+    <None Include="Tesseract-OCR\tessdata\eng.cube.nn" />
+    <None Include="Tesseract-OCR\tessdata\eng.cube.params" />
+    <None Include="Tesseract-OCR\tessdata\eng.cube.size" />
+    <None Include="Tesseract-OCR\tessdata\eng.cube.word-freq" />
+    <None Include="Tesseract-OCR\tessdata\eng.tesseract_cube.nn" />
+    <None Include="Tesseract-OCR\tessdata\eng.traineddata" />
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\batch" />
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\batch.nochop" />
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\matdemo" />
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\msdemo" />
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\nobatch" />
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\segdemo" />
+    <None Include="Tesseract-OCR\tesseract.exe" />
+    <None Include="Tesseract-OCR\unicharset_extractor.exe" />
+    <None Include="Tesseract-OCR\wordlist2dawg.exe" />
+    <None Include="x64\liblept172.dll" />
+    <None Include="x64\libtesseract304.dll" />
+    <None Include="x64\tesseract.dll" />
+    <None Include="x86\liblept172.dll" />
+    <None Include="x86\libtesseract304.dll" />
+    <None Include="x86\tesseract.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Tesseract-OCR\output\ocr_output_buffer.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Tesseract-OCR\doc\eurotext.tif" />
+    <Image Include="Tesseract-OCR\doc\phototest.tif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="tessdata\pdf.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\opencv3.1.redist.1.0\build\native\opencv3.1.redist.targets" Condition="Exists('packages\opencv3.1.redist.1.0\build\native\opencv3.1.redist.targets')" />
+    <Import Project="packages\opencv3.1.1.0\build\native\opencv3.1.targets" Condition="Exists('packages\opencv3.1.1.0\build\native\opencv3.1.targets')" />
+    <Import Project="packages\leptonica.net.1.75.0.4\build\leptonica.net.targets" Condition="Exists('packages\leptonica.net.1.75.0.4\build\leptonica.net.targets')" />
+    <Import Project="packages\tesseract.net.4.0.0.16\build\tesseract.net.targets" Condition="Exists('packages\tesseract.net.4.0.0.16\build\tesseract.net.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\opencv3.1.redist.1.0\build\native\opencv3.1.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\opencv3.1.redist.1.0\build\native\opencv3.1.redist.targets'))" />
+    <Error Condition="!Exists('packages\opencv3.1.1.0\build\native\opencv3.1.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\opencv3.1.1.0\build\native\opencv3.1.targets'))" />
+    <Error Condition="!Exists('packages\leptonica.net.1.75.0.4\build\leptonica.net.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\leptonica.net.1.75.0.4\build\leptonica.net.targets'))" />
+    <Error Condition="!Exists('packages\tesseract.net.4.0.0.16\build\tesseract.net.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\tesseract.net.4.0.0.16\build\tesseract.net.targets'))" />
+  </Target>
+</Project>

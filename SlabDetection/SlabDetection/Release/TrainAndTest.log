@@ -1,0 +1,15 @@
+﻿  SlabNumberDetection.cpp
+SlabNumberDetection.cpp(78): warning C4018: '<': incompatibilidade de signed/unsigned
+SlabNumberDetection.cpp(82): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+SlabNumberDetection.cpp(86): warning C4018: '<': incompatibilidade de signed/unsigned
+SlabNumberDetection.cpp(275): warning C4018: '<': incompatibilidade de signed/unsigned
+SlabNumberDetection.cpp(281): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+SlabNumberDetection.cpp(293): warning C4018: '<': incompatibilidade de signed/unsigned
+SlabNumberDetection.cpp(307): warning C4018: '<': incompatibilidade de signed/unsigned
+  Gerando código
+  1 of 489 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finalizada a geração de código
+  TrainAndTest.vcxproj -> D:\Ma\00 - CSPecem\Placas\OpenCV_3_KNN_Character_Recognition_Cpp-master\TrainAndTest\Release\SlabNumberDetection.exe
+  TrainAndTest.vcxproj -> D:\Ma\00 - CSPecem\Placas\OpenCV_3_KNN_Character_Recognition_Cpp-master\TrainAndTest\Release\SlabNumberDetection.pdb (Full PDB)

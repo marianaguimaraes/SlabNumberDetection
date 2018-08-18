@@ -1,0 +1,8 @@
+﻿  TrainAndTest.cpp
+TrainAndTest.cpp(82): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+TrainAndTest.cpp(281): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+  Gerando código
+  All 489 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finalizada a geração de código
+  TrainAndTest.vcxproj -> D:\Ma\00 - CSPecem\Placas\OpenCV_3_KNN_Character_Recognition_Cpp-master\TrainAndTest\x64\Release\TrainAndTest.exe
+  TrainAndTest.vcxproj -> D:\Ma\00 - CSPecem\Placas\OpenCV_3_KNN_Character_Recognition_Cpp-master\TrainAndTest\x64\Release\TrainAndTest.pdb (Full PDB)

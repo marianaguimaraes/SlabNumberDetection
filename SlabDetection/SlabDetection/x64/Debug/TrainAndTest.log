@@ -1,0 +1,5 @@
+﻿  TrainAndTest.cpp
+d:\ma\00 - cspecem\placas\opencv_3_knn_character_recognition_cpp-master\trainandtest\trainandtest.cpp(82): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+d:\ma\00 - cspecem\placas\opencv_3_knn_character_recognition_cpp-master\trainandtest\trainandtest.cpp(281): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+  TrainAndTest.vcxproj -> D:\Ma\00 - CSPecem\Placas\OpenCV_3_KNN_Character_Recognition_Cpp-master\TrainAndTest\x64\Debug\TrainAndTest.exe
+  TrainAndTest.vcxproj -> D:\Ma\00 - CSPecem\Placas\OpenCV_3_KNN_Character_Recognition_Cpp-master\TrainAndTest\x64\Debug\TrainAndTest.pdb (Partial PDB)

@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (SlabNumberDetection.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SlabNumberDetection.cpp
+SlabNumberDetection.cpp(80): warning C4018: '<': incompatibilidade de signed/unsigned
+SlabNumberDetection.cpp(84): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+SlabNumberDetection.cpp(88): warning C4018: '<': incompatibilidade de signed/unsigned
+SlabNumberDetection.cpp(277): warning C4018: '<': incompatibilidade de signed/unsigned
+SlabNumberDetection.cpp(283): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+SlabNumberDetection.cpp(295): warning C4018: '<': incompatibilidade de signed/unsigned
+SlabNumberDetection.cpp(309): warning C4018: '<': incompatibilidade de signed/unsigned
+  Gerando código
+  1 of 489 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finalizada a geração de código
+  SlabDetection.vcxproj -> D:\Ma\00 - CSPecem\Placas\OpenCV_3_KNN_Character_Recognition_Cpp-master\SlabDetection\Release\SlabNumberDetection.exe
+  SlabDetection.vcxproj -> D:\Ma\00 - CSPecem\Placas\OpenCV_3_KNN_Character_Recognition_Cpp-master\SlabDetection\Release\SlabNumberDetection.pdb (Full PDB)
